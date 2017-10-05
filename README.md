@@ -4,9 +4,9 @@ Bringing up the Hashicorp stack on your local computer
 
 ## Pull the appropriate images from the following pages:
 
-Consul: https://www.consul.io/downloads.html
-Vault: https://www.vaultproject.io/downloads.html
-Nomad: https://www.nomadproject.io/downloads.html
+- Consul: https://www.consul.io/downloads.html
+- Vault: https://www.vaultproject.io/downloads.html
+- Nomad: https://www.nomadproject.io/downloads.html
 
 
 ### Extracting the binaries for use
@@ -183,8 +183,9 @@ two services.
 
 ### Bringing up Nomad
 
-To get Nomad 
+To get Nomad up and running, use: 
 
+      
 ```
 nomad agent -dev
 ```
