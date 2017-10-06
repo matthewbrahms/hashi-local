@@ -75,10 +75,10 @@ and to see the full Hashi-stack, we are going to use our dev Consul instance as 
 datastore for our Vault server (Consul be the db for all Vault data).
 
 First, be sure that the file vault-config.hcl exists in the directory you are in. 
-(You should be in the directory you pulled from GitHub).  Then run:
+(You should be in the root directory you pulled from GitHub).  Then run:
 
 ```
-vault server -config=vault-config.hcl
+vault server -config=./vault/vault-config.hcl
 ```
 
 Next, we need to get Vault unsealed.  This can be a bit tricky, so follow along carefully.
